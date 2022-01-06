@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* first section starts  */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.half-area {
+  width: 40%;
+  padding: 0 3%;
+  margin: 0 5%;
+}
+.half-area h1 {
+  font-size: 60px;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #333;
+  padding-left: 15px;
+  position: relative;
+  line-height: 1.2;
+}
+.half-area h1::before {
+  content: "";
+  position: absolute;
+  background: #ff5959;
+  height: 125px;
+  width: 5px;
+  border-radius: 5px;
+  top: 8px;
+  left: 0;
+}
+.half-area img {
+  width: 100%;
+}
+.text-highlight {
+  color: #ffad5a;
+}
+.stay-focused-text {
+  padding: 25px 0;
+  color: #333;
+  font-size: 18px;
+}
+.link-button {
+  background: #ff5959;
+  color: white;
+  text-decoration: none;
+  padding: 14px 30px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+/* first section end  */
+
+/* second section starts  */
+.second-section h1 {
+  font-size: 48px;
+  color: #13103a;
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.box {
+  width: 25%;
+  margin: 30px 15px;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+.box img {
+  width: 150px;
+}
+.box:nth-child(1) {
+  background: rgba(79, 157, 166, 0.1);
+}
+.box:nth-child(2) {
+  background: rgba(255, 89, 89, 0.1);
+}
+.box:nth-child(3) {
+  background: #fff4d6;
+}
+.box p {
+  padding: 10px 0 50px;
+}
+/* second section ends  */
