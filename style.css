@@ -122,7 +122,6 @@ body {
 .text-container p {
   padding: 10px 10px 25px;
 }
-
 .bg-round {
   position: absolute;
   width: 230px;
@@ -136,4 +135,68 @@ body {
   right: -15px;
   bottom: -72px;
   z-index: -1;
+}
+/* section 3 ends  */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+textarea {
+  display: block;
+  border: none;
+
+  outline: none;
+  width: 350px;
+  height: 35px;
+
+  margin-bottom: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: transparent;
+  border-bottom: 2px dotted rgb(0, 0, 0);
+}
+.input-text {
+  border: none;
+
+  outline: none;
+  width: 350px;
+  height: 35px;
+  /* padding: 20px; */
+  margin-bottom: 25px;
+  border: 0;
+  outline: 0;
+  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: transparent;
+  border-bottom: 2px dotted rgb(0, 0, 0);
+}
+.contact-btn {
+  background: #ff5959;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+.footer {
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 30px 0;
 }
