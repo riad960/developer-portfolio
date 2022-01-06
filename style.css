@@ -120,7 +120,7 @@ body {
   margin: 20px 0;
 }
 .text-container p {
-  padding: 10px 0 25px;
+  padding: 10px 10px 25px;
 }
 
 .bg-round {
@@ -128,5 +128,12 @@ body {
   width: 230px;
   left: -100px;
   top: 75px;
+  z-index: -1;
+}
+.bg-round-2 {
+  position: absolute;
+  width: 230px;
+  right: -15px;
+  bottom: -72px;
   z-index: -1;
 }
