@@ -95,3 +95,15 @@ body {
   padding: 10px 0 50px;
 }
 /* second section ends  */
+
+/* third sec starts  */
+.third-section {
+  display: flex;
+  /* justify-content: center; */
+}
+.img-container {
+  width: 40%;
+}
+.img-container img {
+  width: 50%;
+}
