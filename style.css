@@ -7,6 +7,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* common classes  */
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+}
 /* first section starts  */
 .hero-section {
   display: flex;
@@ -199,4 +205,91 @@ textarea {
   align-items: center;
   color: white;
   padding: 30px 0;
+}
+@media (max-width: 700px) {
+  .hero-section {
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+  .half-area {
+    width: 100%;
+    order: 2;
+  }
+  .half-area h1 {
+    font-size: 42px;
+  }
+  .stay-focused-text {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  .hero-img {
+    order: 1;
+  }
+  .second-section h1 {
+    font-size: 39px;
+    margin: 15px 0;
+  }
+  .box-container {
+    flex-direction: column;
+  }
+  .box {
+    width: 75%;
+  }
+  .third-section {
+    flex-direction: column;
+    margin: 0 15px;
+    padding: 0;
+  }
+  .bg-round {
+    width: 50px;
+  }
+  .bg-round-2 {
+    width: 0;
+  }
+  .text-container {
+    margin: 20px 0;
+  }
+  .text-container h1 {
+    font-size: 30px;
+    color: #333;
+    margin: 5px 0;
+    line-height: 1.2;
+  }
+  .text-container p {
+    padding: 10px 5px 20px;
+    margin: 0 5px;
+  }
+  .contact h1 {
+    font-size: 40px;
+    margin: 15px 0;
+  }
+  .img-container {
+    padding: 0;
+  }
+  .section-img {
+    width: 100%;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .input-text {
+    width: 200px;
+    font-size: 16px;
+  }
+  .contact-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  textarea {
+    width: 200px;
+    font-size: 16px;
+  }
+  .footer h1 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 10px;
+  }
 }
